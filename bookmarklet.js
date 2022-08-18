@@ -1,8 +1,8 @@
-(function ($) {
-	document.getElementsByTagName('head')[0].append(Object.assign(document.createElement('script'), { src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" }));
-})
 
-(function ($) {
+
+function gossi() {
+		document.getElementsByTagName('head')[0].append(Object.assign(document.createElement('script'), { src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" }));
+
 		var iframewindow = frames['galaxy'], token = iframewindow.preload.token.value, findIdRegex = /(?:Settings\/)([a-z0-9]+)(?:\/)/ig, id = findIdRegex.exec(iframewindow.location.hash)[1], $overlay = $('<div></div>').css({
 			background : 'White',
 			width : '100%',
@@ -116,3 +116,4 @@
 		}
 
 	}(jQuery));
+gossi();
