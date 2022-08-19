@@ -1,6 +1,8 @@
-## Welcome to GitHub Pages
+## What is a GA organic search sources import?
 
-You can use the [editor on GitHub](https://github.com/miloszmich/ga-organic-search-sources-import/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is a fix possibility to upload more than one rule in organic search sources.
+
+Full informations: [editor on GitHub](https://github.com/miloszmich/ga-organic-search-sources-import/edit/main/README.md).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
